@@ -48,3 +48,5 @@ fi
 
 echo "#################################################"
 echo "Completed ${GITHUB_WORKFLOW}:${GITHUB_ACTION}"
+echo "#################################################"
+coverage report --skip-empty --rcfile=setup.cfg
